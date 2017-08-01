@@ -25,7 +25,7 @@ public class RSATest {
 
 	public static void generateKey() {
 
-		System.out.println("Entró a generar las llaves");
+		System.out.println("generando las llaves");
 		KeyPairGenerator keyGen;
 		try {
 			keyGen = KeyPairGenerator.getInstance("RSA");
